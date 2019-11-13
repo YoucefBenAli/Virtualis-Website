@@ -48,13 +48,13 @@ ul li {
 }
 
 #Download {
-    background-color:#ffa600;
+    background-color:#00ff44;
     border-color: #0044ff;
 }
 
 #Download:hover {
-    background-color:#ff1900;
-    border-color: #ff1900;
+    background-color: #0044ff;
+    border-color: #0044ff;
 }
 
 #logo {
@@ -72,4 +72,45 @@ ul li {
     white-space: nowrap;
 }
 
+#links {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Button_2 {
+    color: white;
+    font-size: 3vh;
+    text-transform: uppercase;
+    background: #00ff44;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: 0.5s;
+}
+
+.Button_2 span {
+    display: inline-block;
+    transition: 0.5s;
+    font-size: 4vh;
+}
+
+.Button_2 span::after {
+    content: '\2193';
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    right: 50%;
+    transition: 0.5s;
+}
+
+.Button_2:hover span {
+    padding-bottom: 25px;
+  }
+.Button_2:hover span:after {
+    opacity: 1;
+    right: 50%;
+  }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
