@@ -114,3 +114,19 @@ ul li {
     right: 50%;
   }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*Services Page */
+
+#services {
+    height: 100vh;
+    background-color: #fac83e;
+}
+
+.SectionTitle {
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    font-size: 4vh;
+    transform: translate(-50%,-50%);
+    color: white;
+}
