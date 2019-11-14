@@ -122,6 +122,13 @@ ul li {
   }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+/* All pages */
+#SectionTitle {
+    text-align: center;
+    color:white;
+    font-size: 4vh;
+}
+
 /*Services Page */
 
 #services {
@@ -129,13 +136,20 @@ ul li {
     background-color: #fac83e;
 }
 
-#SectionTitle1 {
-    position: absolute;
-    left: 50%;
-    top: 110%;
-    font-size: 4vh;
-    transform: translate(-50%,-50%);
-    color: white;
+.features {
+    margin-top: 10vh;
+    width: 100%;
+    height: 30%;
+}
+
+.featurespic {
+    margin-left: 10vh;
+    height: 30vh;
+}
+
+.featurestext {
+    display: inline-block;
+    float: right;
 }
 
 
@@ -148,14 +162,6 @@ ul li {
     background-color: #00ffea;
 }
 
-#SectionTitle2 {
-    position: absolute;
-    left: 50%;
-    top: 210%;
-    font-size: 4vh;
-    transform: translate(-50%,-50%);
-    color: white;
-}
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
@@ -164,13 +170,4 @@ ul li {
 #about {
     height: 100vh;
     background-color: #9900ff;
-}
-
-#SectionTitle3 {
-    position: absolute;
-    left: 50%;
-    top: 310%;
-    font-size: 4vh;
-    transform: translate(-50%,-50%);
-    color: white;
 }
