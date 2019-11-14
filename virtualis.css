@@ -22,7 +22,7 @@ nav {
 ul {
     float:right;
     list-style-type: none;
-    margin-top: 2vh;
+    margin-top: 3vh;
     margin-right: 10vh;
 }
 
@@ -34,7 +34,9 @@ ul li {
     color: #494949;
     margin: 0.3vh;
     text-transform: uppercase;
+    font-weight: bold;
     background: white;
+    border-radius: 4px;
     padding: 5px;
     border: 2px solid #0044ff;
     transition: all 0.4s ease 0s;
@@ -60,6 +62,7 @@ ul li {
 #logo {
     float: left;
     height: 10vh;
+    padding-left: 5vh;
 }
 
 #title {
