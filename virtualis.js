@@ -1,4 +1,4 @@
-var Pictures = ["url('Wallpaper1.jpg')", "url('Wallpaper2.jpg')", "url('Wallpaper3.jpg')", "url('Wallpaper4.jpg')", "url('Wallpaper5.jpg')", "url('Wallpaper6.jpg')", "url('Wallpaper9.jpg')", "url('Wallpaper10.jpg')", "url('Wallpaper11.jpg')", "url('Wallpaper12.jpg')", "url('Wallpaper13.jpg')", "url('Wallpaper14.jpg')", "url('Wallpaper15.jpg')"]
+var Pictures = ["url('./Pictures/Wallpaper1.jpg')", "url('./Pictures/Wallpaper2.jpg')", "url('./Pictures/Wallpaper3.jpg')", "url('./Pictures/Wallpaper4.jpg')", "url('./Pictures/Wallpaper5.jpg')", "url('./Pictures/Wallpaper6.jpg')", "url('./Pictures/Wallpaper9.jpg')", "url('./Pictures/Wallpaper10.jpg')", "url('./Pictures/Wallpaper11.jpg')", "url('./Pictures/Wallpaper12.jpg')", "url('./Pictures/Wallpaper13.jpg')", "url('./Pictures/Wallpaper14.jpg')", "url('./Pictures/Wallpaper15.jpg')"]
 
 
 function ChangeBg() {

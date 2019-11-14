@@ -17,7 +17,7 @@ html {
 /* HomePage */
 nav {
     height:100vh;
-    background: url(Wallpaper1.jpg) no-repeat;
+    background: url(./Pictures/Wallpaper1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     margin: auto;
