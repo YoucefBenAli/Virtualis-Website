@@ -9,6 +9,10 @@
 a {
     text-decoration: none;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* HomePage */
 nav {
@@ -125,10 +129,47 @@ ul li {
     background-color: #fac83e;
 }
 
-.SectionTitle {
+#SectionTitle1 {
     position: absolute;
     left: 50%;
     top: 110%;
+    font-size: 4vh;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*Services Page */
+
+#pricing {
+    height: 100vh;
+    background-color: #00ffea;
+}
+
+#SectionTitle2 {
+    position: absolute;
+    left: 50%;
+    top: 210%;
+    font-size: 4vh;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*Services Page */
+
+#about {
+    height: 100vh;
+    background-color: #9900ff;
+}
+
+#SectionTitle3 {
+    position: absolute;
+    left: 50%;
+    top: 310%;
     font-size: 4vh;
     transform: translate(-50%,-50%);
     color: white;
