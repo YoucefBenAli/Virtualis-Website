@@ -15,9 +15,21 @@ html {
   }
 
 #Scroll {
+    display:none;
     position:fixed;
     left:90vw;
     top:80vh;
+    background:transparent;
+    border: none;
+}
+
+#Scroll:hover{
+    box-shadow: 2px 2px 2px 8px white;
+}
+
+
+#ScrollPic {
+    width: 5vw;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* HomePage */
