@@ -123,33 +123,58 @@ ul li {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* All pages */
-#SectionTitle {
+.SectionTitle {
     text-align: center;
     color:white;
     font-size: 4vh;
 }
 
+/*Learn Page */
+
+#learnmore {
+    height: 150vh;
+    background-color: #4287f5;
+}
+
 /*Services Page */
 
 #services {
-    height: 100vh;
+    height: 150vh;
     background-color: #fac83e;
 }
 
 .features {
+    width: 90%;
+    height: 50%;
+    margin: auto;
     margin-top: 10vh;
-    width: 70%;
-    height: 30%;
 }
 
 .featurespic {
-    margin-left: 10vh;
+    margin-left: 20vh;
     height: 30vh;
+
 }
 
 .featurestext {
     display: inline-block;
+    font-size: 5vh;
     float: right;
+    margin-right: 10%;
+    margin-top: 7vh;
+    color:white;
+}
+
+#pic2 {
+    float: right;
+    margin-left: 0;
+    margin-right: 20vh;
+}
+
+#text2 {
+    float:left;
+    margin-right: 0;
+    margin-left: 10%;
 }
 
 
@@ -158,7 +183,7 @@ ul li {
 /*Pricing Page */
 
 #pricing {
-    height: 100vh;
+    height: 150vh;
     background-color: #00ffea;
 }
 
@@ -168,6 +193,6 @@ ul li {
 /*About Page */
 
 #about {
-    height: 100vh;
+    height: 150vh;
     background-color: #9900ff;
 }
