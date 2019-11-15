@@ -13,6 +13,12 @@ a {
 html {
     scroll-behavior: smooth;
   }
+
+#Scroll {
+    position:fixed;
+    left:90vw;
+    top:80vh;
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* HomePage */
 nav {
@@ -145,12 +151,13 @@ ul li {
 
 .features {
     width: 90%;
-    height: 50%;
+    height: 20%;
     margin: auto;
     margin-top: 10vh;
 }
 
 .featurespic {
+    margin-top: 7vh;
     margin-left: 20vh;
     height: 30vh;
 
@@ -163,6 +170,7 @@ ul li {
     margin-right: 10%;
     margin-top: 7vh;
     color:white;
+    font-weight: 900;
 }
 
 #pic2 {
