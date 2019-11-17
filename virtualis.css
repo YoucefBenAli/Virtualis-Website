@@ -141,7 +141,7 @@ ul li {
   }
 
 .pay {
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
 }
 .button_3{
@@ -296,15 +296,17 @@ ul li {
 }
 
 #C1 {
-
+    margin-top: 7%;
 }
 
 #C2 {
     color:#3da4f2;
+    margin-top: 7%;
 }
 
 #C3 {
     color:#e6099c;
+    margin-top: 7%;
 }
 .pass {
     margin-top: 10%;
