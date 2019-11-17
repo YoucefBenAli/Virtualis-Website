@@ -147,13 +147,6 @@ ul li {
     font-size: 4vh;
 }
 
-
-/*Services Page */
-#services {
-    height: 200vh;
-    background-color: #fac83e;
-}
-
 .description{
     margin:auto;
     width: 80%;
@@ -174,6 +167,11 @@ ul li {
 }
 
 
+/*Services Page */
+#services {
+    height: 200vh;
+    background-color: #fac83e;
+}
 
 .features {
     width: 90%;
@@ -221,7 +219,48 @@ ul li {
     background-color: #00ffea;
 }
 
+#Options {
+    margin: auto;
+    width: 90vw;
+    height: 90vh;
+}
 
+.membership {
+    float: left;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    width: 30%;
+    height: 90%;
+    background: white;
+    border-radius: 10px;
+}
+
+.membership p {
+    text-align: center;
+
+}
+.crown {
+    border-bottom: solid;
+    border-color: #e30000;
+    padding-bottom: 5px;
+}
+.crown img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+#Customer1 {
+    background-color: #fae35f;
+}
+
+#Customer2 {
+    background-color: #3da4f2;
+}
+
+#Customer3 {
+    background-color: #e6099c;
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /*About Page */
