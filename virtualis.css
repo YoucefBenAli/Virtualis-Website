@@ -139,6 +139,25 @@ ul li {
     opacity: 1;
     right: 50%;
   }
+
+.pay {
+    margin-top: 10%;
+    text-align: center;
+}
+.button_3{
+    color: white;
+    font-size: 5vh;
+    padding: 0 5vw;
+    text-transform: uppercase;
+    background: #00ff44;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s;
+}
+
+.button_3:hover {
+    box-shadow: 2px 4px gray;
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* All pages */
@@ -232,7 +251,7 @@ ul li {
     box-sizing: border-box;
     width: 30%;
     height: 90%;
-    background: white;
+    background: #f7ea2a;
     border-radius: 10px;
     transition: 0.5s;
 }
@@ -256,6 +275,13 @@ ul li {
     width: 20%;
 }
 
+.membership h3 {
+    color: #fff;
+    text-align: center;
+    text-emphasis: 900;
+    font-size: 3vh;
+}
+
 #Customer1 {
     background-color: #fae35f;
 }
@@ -266,6 +292,32 @@ ul li {
 
 #Customer3 {
     background-color: #e6099c;
+}
+
+#C1 {
+
+}
+
+#C2 {
+    color:#3da4f2;
+}
+
+#C3 {
+    color:#e6099c;
+}
+.pass {
+    margin-top: 10%;
+}
+.pass img{
+    margin-left: 5%;
+    width: 10%;
+    display: block;
+    float: left;
+}
+
+.pass p {
+    color: white;
+    text-align: center;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
