@@ -192,7 +192,7 @@ ul li {
     font-size: 5vh;
     float: right;
     margin-right: 10%;
-    margin-top: 7vh;
+    margin-top: 15vh;
     color:white;
     font-weight: 900;
 }
@@ -206,7 +206,7 @@ ul li {
 #text2 {
     float:left;
     margin-right: 0;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 
@@ -233,6 +233,11 @@ ul li {
     height: 90%;
     background: white;
     border-radius: 10px;
+    transition: 0.5s;
+}
+
+.membership:hover {
+    box-shadow: 2px 4px gray;
 }
 
 .membership p {
