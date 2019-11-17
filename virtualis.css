@@ -53,14 +53,14 @@ ul li {
 }
 
 .button {
-    color: #494949;
+    color: white;
     margin: 0.3vh;
     text-transform: uppercase;
     font-weight: bold;
-    background: white;
+    /*background: white;*/
     border-radius: 4px;
     padding: 5px;
-    border: 2px solid #0044ff;
+    /*border: 2px solid #0044ff;*/
     transition: all 0.4s ease 0s;
 }
 
@@ -72,6 +72,7 @@ ul li {
 }
 
 #Download {
+    color:#575353;
     background-color:#00ff44;
     border-color: #0044ff;
 }
@@ -237,7 +238,7 @@ ul li {
 }
 
 .membership:hover {
-    box-shadow: 2px 4px gray;
+    box-shadow: 4px 8px gray;
 }
 
 .membership p {
