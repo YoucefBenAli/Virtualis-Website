@@ -376,6 +376,14 @@ ul li {
     font-weight: 900;
     font-size: 3vh;
 }
+/* Copyright section */
+#Copyright {
+    font-weight: 900;
+    background: white;
+    color: black;
+}
 
-
-/* REMEMBER TO CHANGE ALOT OF THIS STUFF TO VIEWPORT WIDTH INSTAED OF HEIGHT SO YOU CAN FIX THE SCALING ISSUES!!!!!!*/
+#Copyright p{
+    color: black;
+    text-align: center;
+}
