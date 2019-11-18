@@ -182,7 +182,7 @@ ul li {
 
 .description p {
     text-align: center;
-    color:blue;
+    color:#575353;
     font-size: 3vh;
     margin-top: 3vh;
 }
@@ -319,7 +319,7 @@ ul li {
 }
 
 .pass p {
-    color: white;
+    color: #575353;
     text-align: center;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -327,6 +327,55 @@ ul li {
 /*About Page */
 
 #about {
-    height: 150vh;
+    height: 130vh;
     background-color: #9900ff;
 }
+
+#BigContainer {
+    color: #fff;
+    clear:left;
+    width: 90%;
+    margin: auto;
+    margin-top: 20%;
+}
+
+.SmallContainer {
+    float: left;
+    display: block;
+    margin-top: 8%;
+    width: 50%;
+    text-align: center;
+}
+
+.SmallContainer h2 {
+    margin-top: 3%;
+    color: blue;
+}
+
+.SmallContainer p {
+    margin-top: 5%;
+    font-size: 3vh;
+}
+
+.team {
+    margin-top: 5%;
+    width: 20%;
+    float: left;
+}
+
+.team img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 40%;
+}
+
+.team p {
+    text-align: center;
+    color: #575353;
+    font-weight: 900;
+    font-size: 3vh;
+}
+
+
+/* REMEMBER TO CHANGE ALOT OF THIS STUFF TO VIEWPORT WIDTH INSTAED OF HEIGHT SO YOU CAN FIX THE SCALING ISSUES!!!!!!*/
